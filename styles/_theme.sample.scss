@@ -1,27 +1,27 @@
 // Fonts
 //------------------------------------------------------------------------------
 // Font imports
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 
-$font-branding: 'Alfa Slab One', cursive;
+$font-branding: 'Open Sans', sans-serif;
 $font-headline: 'Open Sans', sans-serif;
 $font-sans: 'Open Sans', sans-serif;
 
 // Colors
 //------------------------------------------------------------------------------
 // Classic Dark Theme
-$masthead-background: $gray-25;
-$main-homepage-background: $gray-10;
+$masthead-background: #206095;
+$main-homepage-background: #fff;
 $main-homepage-icon-color: $gray-80;
 $main-homepage-icon-border: $gray-55;
-$main-page-text-color: $gray-80;
-$main-page-btn-color: $gray-80;
+$main-page-text-color: #323132;
+$main-page-btn-color: #0F8243;
 $search-container-background: #e6e2e2;
 $search-container-hover: $white;
 $btn-homepage-background: $gray-25;
 $btn-homepage-border: $gray-25;
 $btn-default-background: $black;
-$btn-default-background-hover: $black;
+$btn-default-background-hover: $orange;
 $btn-default-border: $black;
 $btn-default-text-color: $gray-80;
 $btn-default-text-hover: $accent;
@@ -32,5 +32,6 @@ $elem-link-accent: $accent-light;
 $nav-text-color: $gray-70;
 
 .logo {
-  filter: invert(100%);
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
 }
