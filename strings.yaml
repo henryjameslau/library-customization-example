@@ -3,15 +3,15 @@ branding:
   org: Office for National Statistics
   orgDomain: ons.gov.uk
   prettyName: Digital Content Toolkit
-  favicon: https://www.google.com/s2/favicons?domain=www.ons.gov.uk
+  favicon: https://github.com/henryjameslau/library-customization-example/raw/master/assets/ons.png
 
 landing:
-  tagline: A simple documentation site, built from content in Google Docs.
-  viewAll: View All Pages
+  tagline: Everything you need to know about the Digital Content team
+  viewAll: View all pages
   quickLink:
 
 footer:
-  helpText: For help contributing or to report a problem, consult <a href="https://github.com/nytimes/library">the Github Page</a>.
+  helpText: <a href="mailto:digitalcontent@ons.gov.uk">Contact the digital content team</a>.
   defaultEmail: digitalcontent@ons.gov.uk
 
 search:
